@@ -1,0 +1,8 @@
+# Basis-Image nginx-unprivileged verwenden
+FROM nginxinc/nginx-unprivileged:latest
+
+# Arbeitsverzeichnis im Container festlegen
+WORKDIR /usr/share/nginx/html
+
+# Deine Webseite in den Container kopieren
+COPY index.html .

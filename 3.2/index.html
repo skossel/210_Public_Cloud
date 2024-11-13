@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Collage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+        header {
+            background-color: #4f83cc;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .collage {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px;
+        }
+        .box {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #4f83cc;
+        }
+        .icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+            color: #4f83cc;
+        }
+        footer {
+            text-align: center;
+            margin: 20px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Cloud Collage</h1>
+</header>
+
+<div class="collage">
+    <div class="box">
+        <div class="icon">☁️</div>
+        <h2>Was ich über Cloud wisse?</h2>
+
+        <ul>
+            <li>AWS</li>
+            <li>Docker</li>
+        </ul>
+
+
+    </div>
+</div>
+
+</body>
+</html>
