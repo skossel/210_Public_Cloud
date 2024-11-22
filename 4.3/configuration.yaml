@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tennisChamp210
+  labels:
+    app: tennisChamp210
+spec:
+  selector:
+    matchLabels:
+        app: tennisChamp210
+  template:
+    metadata:
+      labels:
+        app: tennisChamp210
+    spec:
+      containers:
+      - name: tennisChamp210
+        image: tbd
+        env:
+          - name: SOME_ENV_VAR
+            value: $SOME_ENV
+
+        ports:
+          - containerPort: 8080

@@ -1,5 +1,8 @@
 # Cloud-Fragen
 
+# wichtig: deployment und service modelle vor und nachteile
+
+
 ## Wie ist der Begriff Cloud entstanden?
 - Vernetztes System, in welchem der Nutzer nicht genau weiss, wo er sich befindet.
 
